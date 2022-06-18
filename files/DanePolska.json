@@ -1,0 +1,194 @@
+{
+    "version": "2.0",
+    "class": "dataset",
+    "label": "HICP - monthly data (index)",
+    "source": "ESTAT",
+    "updated": "2022-05-31T11:00:00+0200",
+    "value": {
+        "0": 112.3,
+        "1": 112.6,
+        "2": 112.8,
+        "3": 112.8,
+        "4": 113.6,
+        "5": 114.0,
+        "6": 115.1,
+        "7": 115.3,
+        "8": 116.0,
+        "9": 116.0,
+        "10": 117.7,
+        "11": 119.0,
+        "12": 119.4,
+        "13": 119.4,
+        "14": 119.1,
+        "15": 119.4,
+        "16": 119.6,
+        "17": 120.0,
+        "18": 120.7,
+        "19": 120.9,
+        "20": 120.6,
+        "21": 120.6,
+        "22": 121.5,
+        "23": 121.9,
+        "24": 122.5
+    },
+    "id": ["freq",
+        "unit",
+        "coicop",
+        "geo",
+        "time"
+    ],
+    "size": [1,
+        1,
+        1,
+        1,
+        25
+    ],
+    "dimension": {
+        "freq": {
+            "label": "Time frequency",
+            "category": {
+                "index": { "M": 0 },
+                "label": { "M": "Monthly" }
+            }
+        },
+        "unit": {
+            "label": "Unit of measure",
+            "category": {
+                "index": { "I15": 0 },
+                "label": {
+                    "I15": "Index, 2015 = 100 "
+                }
+            }
+        },
+        "coicop": {
+            "label": "Classification of individual consumption by purpose (COICOP)",
+            "category": {
+                "index": { "CP041": 0 },
+                "label": { "CP041": "Actual rentals for housing" }
+            }
+        },
+        "geo": {
+            "label": "Geopolitical entity (reporting)",
+            "category": {
+                "index": { "PL": 0 },
+                "label": { "PL": "Poland" }
+            }
+        },
+        "time": {
+            "label": "Time",
+            "category": {
+                "index": {
+                    "2019-03": 0,
+                    "2019-04": 1,
+                    "2019-05": 2,
+                    "2019-06": 3,
+                    "2019-07": 4,
+                    "2019-08": 5,
+                    "2019-09": 6,
+                    "2019-10": 7,
+                    "2019-11": 8,
+                    "2019-12": 9,
+                    "2020-01": 10,
+                    "2020-02": 11,
+                    "2020-03": 12,
+                    "2020-04": 13,
+                    "2020-05": 14,
+                    "2020-06": 15,
+                    "2020-07": 16,
+                    "2020-08": 17,
+                    "2020-09": 18,
+                    "2020-10": 19,
+                    "2020-11": 20,
+                    "2020-12": 21,
+                    "2021-01": 22,
+                    "2021-02": 23,
+                    "2021-03": 24
+                },
+                "label": {
+                    "2019-03": "2019-03",
+                    "2019-04": "2019-04",
+                    "2019-05": "2019-05",
+                    "2019-06": "2019-06",
+                    "2019-07": "2019-07",
+                    "2019-08": "2019-08",
+                    "2019-09": "2019-09",
+                    "2019-10": "2019-10",
+                    "2019-11": "2019-11",
+                    "2019-12": "2019-12",
+                    "2020-01": "2020-01",
+                    "2020-02": "2020-02",
+                    "2020-03": "2020-03",
+                    "2020-04": "2020-04",
+                    "2020-05": "2020-05",
+                    "2020-06": "2020-06",
+                    "2020-07": "2020-07",
+                    "2020-08": "2020-08",
+                    "2020-09": "2020-09",
+                    "2020-10": "2020-10",
+                    "2020-11": "2020-11",
+                    "2020-12": "2020-12",
+                    "2021-01": "2021-01",
+                    "2021-02": "2021-02",
+                    "2021-03": "2021-03"
+                }
+            }
+        }
+    },
+    "extension": {
+        "lang": "EN",
+        "id": "PRC_HICP_MIDX",
+        "agencyId": "ESTAT",
+        "version": "1.0",
+        "datastructure": {
+            "id": "PRC_HICP_MIDX",
+            "agencyId": "ESTAT",
+            "version": "33.0"
+        },
+        "annotation": [{
+                "type": "DISSEMINATION_OBJECT_TYPE",
+                "title": "DATASET"
+            },
+            {
+                "type": "ESMS_HTML",
+                "title": "Explanatory texts (metadata)",
+                "href": "https://ec.europa.eu/eurostat/cache/metadata/en/prc_hicp_esms.htm"
+            },
+            {
+                "type": "ESMS_SDMX",
+                "title": "Explanatory texts (metadata)",
+                "href": "https://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=metadata/prc_hicp_esms.sdmx.zip"
+            },
+            {
+                "type": "OBS_COUNT",
+                "title": "6415167"
+            },
+            {
+                "type": "OBS_PERIOD_OVERALL_LATEST",
+                "title": "2022-05"
+            },
+            {
+                "type": "OBS_PERIOD_OVERALL_OLDEST",
+                "title": "1996-01"
+            },
+            {
+                "type": "SOURCE_INSTITUTIONS",
+                "text": "Eurostat"
+            },
+            {
+                "type": "UPDATE_DATA",
+                "date": "2022-05-31T11:00:00+0200"
+            },
+            {
+                "type": "UPDATE_STRUCTURE",
+                "date": "2022-05-31T11:00:00+0200"
+            }
+        ],
+        "positions-with-no-data": {
+            "freq": [],
+            "unit": [],
+            "coicop": [],
+            "geo": [],
+            "time": []
+        }
+    }
+}
